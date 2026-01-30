@@ -6,7 +6,7 @@ using Android.Content.PM;
 using Android.OS;
 using AndroidX.Activity.Result;
 using AndroidX.Activity.Result.Contract;
-using AndroidX.Fragment.App;
+using Fragment = AndroidX.Fragment.App.Fragment;
 using static Android.Provider.Settings;
 
 namespace SimpleBluetoothTerminalNet;

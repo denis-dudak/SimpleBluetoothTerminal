@@ -9,7 +9,7 @@ using Android.Text.Method;
 using Android.Text.Style;
 using Android.Views;
 using Android.Widget;
-using AndroidX.Fragment.App;
+using Fragment = AndroidX.Fragment.App.Fragment;
 
 namespace SimpleBluetoothTerminalNet;
 

@@ -1,6 +1,6 @@
 using AndroidX.AppCompat.App;
-using AndroidX.AppCompat.Widget;
-using AndroidX.Fragment.App;
+using Toolbar = AndroidX.AppCompat.Widget.Toolbar;
+using FragmentManager = AndroidX.Fragment.App.FragmentManager;
 
 namespace SimpleBluetoothTerminalNet;
 

@@ -6,7 +6,7 @@ using System.IO;
 
 namespace SimpleBluetoothTerminalNet;
 
-internal class SerialSocket : Java.Lang.Object, Java.Lang.IRunnable
+public class SerialSocket : Java.Lang.Object, Java.Lang.IRunnable
 {
     private static readonly Java.Util.UUID BLUETOOTH_SPP = Java.Util.UUID.FromString("00001101-0000-1000-8000-00805F9B34FB");
 

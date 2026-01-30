@@ -4,3 +4,13 @@
 /local.properties
 /app/build/
 /build/
+
+# .NET / Xamarin
+bin/
+obj/
+*.user
+*.suo
+.vs/
+*.userprefs
+*.DS_Store
+

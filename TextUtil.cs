@@ -3,12 +3,13 @@ using Android.Text;
 using Android.Text.Style;
 using Android.Widget;
 using Java.IO;
+using Java.Lang;
 
 namespace SimpleBluetoothTerminalNet;
 
 internal static class TextUtil
 {
-    public static Color CaretBackground = new Color(0xff666666);
+    public static Color CaretBackground = new Color(unchecked((int)0xff666666));
 
     public const string NewlineCrlf = "\r\n";
     public const string NewlineLf = "\n";

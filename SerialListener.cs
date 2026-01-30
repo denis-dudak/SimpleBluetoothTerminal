@@ -1,6 +1,6 @@
 namespace SimpleBluetoothTerminalNet;
 
-internal interface ISerialListener
+public interface ISerialListener
 {
     void OnSerialConnect();
     void OnSerialConnectError(Exception e);

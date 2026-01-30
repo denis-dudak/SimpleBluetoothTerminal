@@ -12,8 +12,8 @@
     <TrimMode>full</TrimMode>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="Xamarin.AndroidX.AppCompat" Version="1.7.0.4" />
+    <PackageReference Include="Xamarin.AndroidX.AppCompat" Version="1.7.0.6" />
     <PackageReference Include="Xamarin.Google.Android.Material" Version="1.12.0.3" />
-    <PackageReference Include="Xamarin.AndroidX.Fragment" Version="1.8.5.1" />
+    <PackageReference Include="Xamarin.AndroidX.Fragment" Version="1.8.6.1" />
   </ItemGroup>
 </Project>

@@ -7,7 +7,8 @@ using Android.Views;
 using Android.Widget;
 using AndroidX.Activity.Result;
 using AndroidX.Activity.Result.Contract;
-using AndroidX.Fragment.App;
+using Fragment = AndroidX.Fragment.App.Fragment;
+using ListFragment = AndroidX.Fragment.App.ListFragment;
 using System.Collections.Generic;
 using System.Linq;
 
