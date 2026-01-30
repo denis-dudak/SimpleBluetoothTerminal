@@ -104,7 +104,7 @@ public class TerminalFragment : Fragment, IServiceConnection, ISerialListener
     {
         var view = inflater.Inflate(Resource.Layout.fragment_terminal, container, false);
         _receiveText = view.FindViewById<TextView>(Resource.Id.receive_text);
-        _receiveText!.SetTextColor(Resources!.GetColor(Resource.Color.colorRecieveText));
+        _receiveText!.SetTextColor(Resources!.GetColor(Resource.Color.colorReceiveText));
         _receiveText.MovementMethod = new ScrollingMovementMethod();
 
         _sendText = view.FindViewById<TextView>(Resource.Id.send_text);
